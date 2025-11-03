@@ -196,6 +196,7 @@ dist_edad.columns = ['Grupo Edad', 'Muertes']
 # GEOJSON DEPARTAMENTOS DANE (proyecto26 - 33 features, códigos "05")
 GEOJSON_URL = "https://gist.githubusercontent.com/john-guerra/43c7656821069d00dcbc/raw/be6a6e239cd5b5b803c6e7c2ec405b793a9064dd/Colombia.geo.json"
 app = Dash(__name__, title="Mortalidad Colombia 2019")
+server = app.server
 
 app.layout = html.Div([
     html.H1("Análisis Interactivo de Mortalidad en Colombia - 2019", 
