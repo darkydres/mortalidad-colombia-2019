@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from dash import Dash, dcc, html
+import os
 import json
 import urllib.request
 
@@ -280,5 +281,5 @@ app.layout = html.Div([
 # EJECUTAR
 # ==========================
 if __name__ == '__main__':
-    # Railway usa gunicorn para local:
-    app.run_server(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)), debug=False)
+    port = int(os.environ.get('PORT', 8000))
+    app.run_server(host='0.0.0.0', port=port, debug=False)
