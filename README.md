@@ -38,7 +38,7 @@ mortalidad-colombia-2019/
 
 ## Instalación Local
 1. Clona el repositorio.
-2. Instala dependencias: `pip install -r requirements.txt`.
+2. Instala dependencias: `requirements.txt`
 3. Ejecuta: `python app.py`.
 4. Abre: http://localhost:8050.
 
