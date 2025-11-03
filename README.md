@@ -27,7 +27,7 @@ mortalidad-colombia-2019/
 
 ## Despliegue en Railway
 1. Clona el repo: `git clone https://github.com/darkydres/mortalidad-colombia-2019.git`
-2. Instala dependencias: `requirements.txt`
+2. Instala dependencias: `pip install -r requirements.txt`
 3. Ejecuta localmente: `python app.py`
 4. Para producción en Railway: Conecta el repo en [railway.app](https://railway.app) → Auto-despliegue.
 
@@ -38,7 +38,7 @@ mortalidad-colombia-2019/
 
 ## Instalación Local
 1. Clona el repositorio.
-2. Instala dependencias: `requirements.txt`
+2. Instala dependencias: `pip install -r requirements.txt`
 3. Ejecuta: `python app.py`.
 4. Abre: http://localhost:8050.
 

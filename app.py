@@ -280,5 +280,5 @@ app.layout = html.Div([
 # EJECUTAR
 # ==========================
 if __name__ == '__main__':
-    # Local
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    # Railway usa gunicorn para local:
+    app.run_server(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)), debug=False)
