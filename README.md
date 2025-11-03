@@ -23,7 +23,7 @@ mortalidad-colombia-2019/
 
 ## Requisitos
 - Python 3.8+
-- Librerías: `dash==2.17.1`, `plotly==5.18.0`, `pandas==2.2.2`, `openpyxl==3.1.2`, `requests==2.31.0`, `gunicorn==21.2.0`
+- Librerías: `dash==2.17.1`, `plotly==5.22.0`, `pandas==2.2.3`, `openpyxl==3.1.5`, `gunicorn==22.0.0`
 
 ## Despliegue en Railway
 1. Clona el repo: `git clone https://github.com/darkydres/mortalidad-colombia-2019.git`
